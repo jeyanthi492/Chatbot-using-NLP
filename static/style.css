@@ -1,0 +1,55 @@
+/* style.css */
+
+/* Chat container styling */
+*{
+    background-color: antiquewhite;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+}
+#chat-container {
+    border: 3px solid #404040;
+    margin-bottom: 20px;
+    height: 600px;
+    width: 80%;
+    padding: 10px;
+    overflow-y: scroll;
+}
+
+/* User input form styling */
+#user-input-form {
+    margin-top: 20px;
+    width: 80%;
+}
+
+#user-input {
+    width: calc(100% - 80px); /* Adjust width as needed */
+    padding: 5px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+#user-input:focus {
+    outline: none;
+    border-color: blue; /* Change color when focused */
+}
+
+#user-input::placeholder {
+    color: #999; /* Placeholder text color */
+}
+
+button[type="submit"] {
+    padding: 5px 10px;
+    font-size: 16px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: darkblue; /* Change color on hover */
+}
